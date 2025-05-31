@@ -1,0 +1,21 @@
+:root {
+    --cor-primaria: #00211D;
+    --cor-secundaria: #7CCCBD;
+    --cor-terciaria: #C0B6AD;
+    --cor-destaque: #EF3B4B;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 65%;
+}
