@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=IBM+Plex+Serif&display=swap');
+
+:root {
+    --cor-primaria: #00211D;
+    --cor-secundaria: #7CCCBD;
+    --cor-terciaria: #C0B6AD;
+    --cor-destaque: #641B2E;
+
+    --fonte-principal: "IBM Plex Serif", serif;
+    --fonte-secundaria: "Ancizar Sans", sans-serif;
+
+    --fonte-tamanho-titulo: 3rem;
+    --fonte-tamanho-texto: 1.3rem;
+    --fonte-tamanho-menu: 2.1rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    background-color: var(--cor-terciaria);
+    top: 0;
+    left: 0;
+    height: 60px;
+    font-family: var(--fonte-secundaria);
+}
+
+.cabecalho__logotipo {
+    color: #626F47;
+    font-size: 3.1rem;
+    font-weight: 900;
+}
+
+.cabecalho__nav__menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.7rem;
+}
+
+.cabecalho__nav__menu__links {
+    font-size: var(--fonte-tamanho-menu);
+    color: #641B2E;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.cabecalho__nav__menu__links:hover {
+    color: #537D5D;
+}
+
+.cabecalho__contato {
+    font-size: var(--fonte-tamanho-menu);
+    color: #641B2E;
+    padding: 5px 20px;
+    background-color: #626F47;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.cabecalho__contato:hover {
+    background-color: #00211D;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+}
+
+
+@media (max-width: 880px){
+    li, a {
+        font-size: 12px;
+    }
+}
+
+.imgQuintal{
+    height: 100vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;   
+}
+
+.imgQuintal img {
+  width: 500px; 
+  height: auto;
+}
